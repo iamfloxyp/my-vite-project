@@ -5,13 +5,14 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   // base: '/my-vite-app',
   plugins: [react()],
-  // root:'./',
-  // build: {
-  //   rollupOptions: {
-  //     external: ['@fortawesome/react-fontawesome', '@fortawesome/fontawesome-svg-core',
-  //       '@fortawesome/free-solid-svg-icons'
-  //     ],
-  //   },
-  // },
+  root:'./',
+  build: {
+    rollupOptions: {
+      external: ['@fortawesome/react-fontawesome',
+         '@fortawesome/fontawesome-svg-core',
+        '@fortawesome/free-solid-svg-icons'
+      ],
+    },
+  },
 });
 
