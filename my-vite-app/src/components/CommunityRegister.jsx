@@ -17,25 +17,25 @@ const CommunityRegister = () => {
       </div>
       <div className="timeline-container">
         <img src={Vector2} alt="Zigzag Line" className="zigzag-line" />
-        <div className="avatar-container" style={{ top: "188px", left: "0%", borderColor: "#8300ff" }}>
+        <div className="avatar-container" >
           <img src={Blackguy} alt="Avatar" className="avatar" />
         </div>
-        <div className="avatar-container" style={{ top: "20px", left: "20rem", borderColor: "#2f6c62" }}>
+        <div className="avatar-container" >
           <img src={Blackguy} alt="Avatar" className="avatar" />
         </div>
-        <div className="avatar-container" style={{ top: "158px", left: "533px", borderColor: "#FF3B30" }}>
+        <div className="avatar-container" >
           <img src={Blackguy} alt="Avatar" className="avatar" />
         </div>
-        <div className="avatar-container" style={{ top: "150px", left: "756px", borderColor: "#007aff" }}>
+        <div className="avatar-container" >
           <img src={Blackguy} alt="Avatar" className="avatar" />
         </div>
-        <div className="avatar-container" style={{ top: "138px", left: "1000px", borderColor: "#FF3B30" }}>
+        <div className="avatar-container" >
           <img src={Blackguy} alt="Avatar" className="avatar" />
         </div>
-        <div className="avatar-container" style={{ top: "30px", left: "1285px", borderColor: "teal" }}>
+        <div className="avatar-container" >
           <img src={Blackguy} alt="Avatar" className="avatar" />
         </div>
-        <div className="avatar-container" style={{ top: "188px", left: "1560px", borderColor: "#FF9500" }}>
+        <div className="avatar-container" >
           <img src={Blackguy} alt="Avatar" className="avatar" />
         </div>
       </div>

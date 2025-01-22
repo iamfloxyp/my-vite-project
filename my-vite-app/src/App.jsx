@@ -7,6 +7,9 @@ import Sponsor from './components/Sponsor'
 import AnimatedStateSection from './components/AnimatedStateSection'
 import CommunityRegister from './components/CommunityRegister'
 import Friday from './components/Friday'
+import Testimonial from './components/Testimonial'
+import FAQSection from './components/FaqSection'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -19,6 +22,9 @@ const App = () => {
       <AnimatedStateSection/>
       <CommunityRegister/>
       <Friday/>
+      <Testimonial/>
+      <FAQSection/>
+      <Footer/>
     </div>
   )
 }
